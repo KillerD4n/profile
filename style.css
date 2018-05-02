@@ -1,0 +1,67 @@
+body {
+background-color: #DFD3D3;
+color: black;
+font-size: 16px ;
+line-height: 32px;
+font-family: 'Work Sans', sans-serif;
+
+}
+
+h1,h2,h3 {
+  font-family: 'Fjalla One', sans-serif;
+  color: rgb(60,60,60);
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 24px;
+}
+a {
+  color: rgb(60,60,60);
+  text-decoration: none;
+  font-size: 32px;
+}
+a:hover {
+  color: rgba(100, 30, 100, 0.7);
+}
+
+/*classes and ids*/
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+.card {
+  background-color: #B8B0B0;
+  width: 700px;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  text-align: center;
+}
+.red-btn {
+    background-color: #7C7575;
+    color: rgb(40,60,60);
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.fa-heart:before {
+    content: "\f004";
+}
+.list-inline {
+  padding-left: 0px;
+}
